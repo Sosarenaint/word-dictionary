@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap');
+
+// Responsive Breakpoint
+$bp-large-1: 88em;       //1408px
+$bp-large-2: 75em;       //1200px
+$bp-large-3: 62em;       //992px
+$bp-medium-1: 50em;      //800px
+$bp-medium-2: 44em;      //704px
+$bp-medium-3: 38em;      //608px
+$bp-small-1: 35em;       //560px
+$bp-small-2: 30em;       //480px
+$bp-small-3: 25em;       //400px
+
+@import './header';
+@import './definations';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Rubik', sans-serif;
+}
+
+.app {
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+
+.switch {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 10px;
+}
